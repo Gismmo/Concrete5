@@ -1,0 +1,92 @@
+/* Formigo Social Links 
+ * social_links_simple_mono_64px template
+*/
+
+.social-links-mono-64-wrapper {
+	position:relative;height:auto;width:100%;margin:0px;padding:0px;
+}	
+.social-links-mono-64 {
+	list-style:none; text-align:left; height:auto!important;
+	width:100%;overflow:hidden;float:right;margin:0px!important;padding:0px!important;
+	border-bottom:none!important;
+	
+}
+.social-links-mono-64 li {
+	width:100%;margin:0px!important;padding:0px!important;
+}
+.social-links-mono-64 a {
+	float:right;display:block;height:64px;width:63px;text-indent:-9999px;padding:0px!important;margin:0px!important;
+	background:url(social-links-simple-mono-64px.png) 0 0 no-repeat!important;
+	border-right:1px dotted #cecece;border-bottom:1px dotted #cecece;
+	-webkit-transition: background-position .3s ease-in,background-color .6s ease-in;
+	-moz-transition:  background-position .3s ease-in, background-color .6s ease-in;
+	-o-transition:  background-position .3s ease-in, background-color .6s ease-in;
+	-ms-transition:  background-position .3s ease-in-out, background-color .6s ease-in;
+	transition: background-position .3s ease-in,background-color .6s ease-in;		
+}
+.social-links-mono-64 a:hover {
+
+	border-right:1px dotted #cecece!important;padding:0px!important;margin:0px!important;
+
+}
+/* Social styles */
+.social-links-mono-64 li.twitter a {
+	background-position: -64px 0!important;
+}
+.social-links-mono-64 li.twitter a:hover {
+	background-position: -64px -64px!important;background-color:#33CCFF!important;
+}
+.social-links-mono-64 li.facebook a {
+	background-position: 0px 0!important;
+}
+.social-links-mono-64 li.facebook a:hover {
+	background-position: 0px -64px!important;background-color:#3B5998!important;
+}
+.social-links-mono-64 li.googleplus a {
+	background-position: -192px 0!important;
+}
+.social-links-mono-64 li.googleplus a:hover {
+	background-position: -192px -64px!important;background-color:#404040!important;
+}
+.social-links-mono-64 li.linkedin a {
+	background-position: -128px 0!important;
+}	
+.social-links-mono-64 li.linkedin a:hover {
+	background-position: -128px -64px!important;background-color:#006699!important;
+}
+.social-links-mono-64 li.foursquare a {
+	background-position: -576px 0!important;
+}
+.social-links-mono-64 li.foursquare a:hover {
+	background-position: -576px -64px!important;background-color:#A4D100!important;
+}
+.social-links-mono-64 li.flickr a {
+	background-position: -320px 0!important;
+}
+.social-links-mono-64 li.flickr a:hover {
+	background-position: -320px -64px!important;background-color:#FF0084!important;
+}
+.social-links-mono-64 li.youtube a {
+	background-position: -384px 0!important;
+}
+.social-links-mono-64 li.youtube a:hover {
+	background-position: -384px -64px!important;background-color:#FF3333!important;
+}	
+.social-links-mono-64 li.vimeo a {
+	background-position: -448px 0!important;
+}
+.social-links-mono-64 li.vimeo a:hover {
+	background-position: -448px -64px!important;background-color:#1AB7EA!important;
+}
+.social-links-mono-64 li.pinterest a {
+	background-position: -512px 0!important;
+}
+.social-links-mono-64 li.pinterest a:hover {
+	background-position: -512px -64px!important;background-color:#CA2027!important;
+}
+.social-links-mono-64 li.rss a {
+	background-position: -256px 0!important;
+}
+.social-links-mono-64 li.rss a:hover {
+	background-position: -256px -64px!important;background-color:#F48020!important;
+}

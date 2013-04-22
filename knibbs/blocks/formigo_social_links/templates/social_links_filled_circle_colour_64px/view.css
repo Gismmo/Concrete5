@@ -1,0 +1,91 @@
+/* Formigo Social Links 
+ * social_links_circle_colour_64px template
+*/
+
+.social-links-filled-circle-colour-64-wrapper {
+	position:relative;height:auto;width:100%;margin:0px;padding:0px;
+}	
+.social-links-filled-circle-colour-64 {
+	list-style:none; text-align:left; height:auto!important;
+	width:100%;overflow:hidden;float:right;margin:0px!important;padding:0px!important;
+	border-bottom:none!important;
+	
+}
+.social-links-filled-circle-colour-64 li {
+	width:100%;margin:0px!important;padding:0px!important;
+}
+.social-links-filled-circle-colour-64 a {
+	float:right;display:block;height:64px;width:64px;text-indent:-9999px;padding:0px!important;
+	background:url(social-links-filled-circle-colour-64px.png) 0 0 no-repeat!important;
+	margin:0 16px 0 0!important;
+	-webkit-transition: background-position .3s ease-in;
+	-moz-transition:  background-position .3s ease-in;
+	-o-transition:  background-position .3s ease-in;
+	-ms-transition:  background-position .3s ease-in-out;
+	transition: background-position .3s ease-in;	
+}
+.social-links-filled-circle-colour-64 a:hover {
+	padding:0px!important;
+	margin:0 16px 0 0!important;
+}
+/* Social styles */
+.social-links-filled-circle-colour-64 li.twitter a {
+	background-position: -64px 0!important;
+}
+.social-links-filled-circle-colour-64 li.twitter a:hover {
+	background-position: -64px -64px!important;
+}
+.social-links-filled-circle-colour-64 li.facebook a {
+	background-position: 0px 0!important;
+}
+.social-links-filled-circle-colour-64 li.facebook a:hover {
+	background-position: 0px -64px!important;
+}
+.social-links-filled-circle-colour-64 li.googleplus a {
+	background-position: -192px 0!important;
+}
+.social-links-filled-circle-colour-64 li.googleplus a:hover {
+	background-position: -192px -64px!important;
+}
+.social-links-filled-circle-colour-64 li.linkedin a {
+	background-position: -128px 0!important;
+}	
+.social-links-filled-circle-colour-64 li.linkedin a:hover {
+	background-position: -128px -64px!important;
+}
+.social-links-filled-circle-colour-64 li.foursquare a {
+	background-position: -576px 0!important;
+}
+.social-links-filled-circle-colour-64 li.foursquare a:hover {
+	background-position: -576px -64px!important;
+}
+.social-links-filled-circle-colour-64 li.flickr a {
+	background-position: -320px 0!important;
+}
+.social-links-filled-circle-colour-64 li.flickr a:hover {
+	background-position: -320px -64px!important;
+}
+.social-links-filled-circle-colour-64 li.youtube a {
+	background-position: -384px 0!important;
+}
+.social-links-filled-circle-colour-64 li.youtube a:hover {
+	background-position: -384px -64px!important;
+}	
+.social-links-filled-circle-colour-64 li.vimeo a {
+	background-position: -448px 0!important;
+}
+.social-links-filled-circle-colour-64 li.vimeo a:hover {
+	background-position: -448px -64px!important;
+}
+.social-links-filled-circle-colour-64 li.pinterest a {
+	background-position: -512px 0!important;
+}
+.social-links-filled-circle-colour-64 li.pinterest a:hover {
+	background-position: -512px -64px!important;
+}
+.social-links-filled-circle-colour-64 li.rss a {
+	background-position: -256px 0!important;
+}
+.social-links-filled-circle-colour-64 li.rss a:hover {
+	background-position: -256px -64px!important;
+}

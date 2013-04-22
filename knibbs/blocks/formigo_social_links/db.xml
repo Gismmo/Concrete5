@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btFormigoSocialLinks">
+	
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		
+		<!-- Twitter -->
+		<field name="useTwitter" type="L">
+		</field>
+		
+		<field name="twitterUri" type="C" size="255">
+		</field>
+		
+		<field name="twitterOrder" type="C" size="2">
+		</field>
+		
+		<!-- Facebook -->
+		<field name="useFacebook" type="L">
+		</field>
+		
+		<field name="facebookUri" type="C" size="255">
+		</field>
+		
+		<field name="facebookOrder" type="C" size="2">
+		</field>
+		
+		<!-- Google + -->
+		<field name="useGoogleplus" type="L">
+		</field>
+		
+		<field name="googleplusUri" type="C" size="255">
+		</field>
+		
+		<field name="googleplusOrder" type="C" size="2">
+		</field>
+		
+		<!-- Linkedin -->
+		<field name="useLinkedin" type="L">
+		</field>
+		
+		<field name="linkedinUri" type="C" size="255">
+		</field>
+		
+		<field name="linkedinOrder" type="C" size="2">
+		</field>
+		
+		<!-- Foursquare -->
+		<field name="useFoursquare" type="L">
+		</field>
+		
+		<field name="foursquareUri" type="C" size="255">
+		</field>
+		
+		<field name="foursquareOrder" type="C" size="2">
+		</field>
+		
+		<!-- Flickr -->
+		<field name="useFlickr" type="L">
+		</field>
+		
+		<field name="flickrUri" type="C" size="255">
+		</field>
+		
+		<field name="flickrOrder" type="C" size="2">
+		</field>
+		
+		<!-- Youtube -->
+		<field name="useYoutube" type="L">
+		</field>
+		
+		<field name="youtubeUri" type="C" size="255">
+		</field>
+		
+		<field name="youtubeOrder" type="C" size="2">
+		</field>
+		
+		<!-- Vimeo -->
+		<field name="useVimeo" type="L">
+		</field>
+		
+		<field name="vimeoUri" type="C" size="255">
+		</field>
+		
+		<field name="vimeoOrder" type="C" size="2">
+		</field>
+		
+		<!-- Pinterest -->
+		<field name="usePinterest" type="L">
+		</field>
+		
+		<field name="pinterestUri" type="C" size="255">
+		</field>
+		
+		<field name="pinterestOrder" type="C" size="2">
+		</field>
+		
+		<!-- RSS -->
+		<field name="useRss" type="L">
+		</field>
+		
+		<field name="rssUri" type="C" size="255">
+		</field>
+		
+		<field name="rssOrder" type="C" size="2">
+		</field>
+		
+		<!-- Misc -->
+		<field name="nofollowLinks" type="L">
+		</field>
+		<field name="leftAlign" type="L">
+		</field>
+		<field name="newWindow" type="L">
+		</field>
+		
+	</table>
+</schema>

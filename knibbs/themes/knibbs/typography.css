@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/*=====================================================  	Typography 	 	======================================================*/
+
+/* Fonts */
+@font-face { font-family: "entypo"; font-style: normal; font-weight: 400; src: url(fonts/icons/entypo.eot); src: url("fonts/icons/entypo.eot?#iefix") format("ie9-skip-eot"), url("fonts/icons/entypo.woff") format("woff"), url("fonts/icons/entypo.ttf") format("truetype"); }
+
+#main-container h1, #main-container h2, #main-container h3, #main-container h4, #main-container h5, #main-container h6 { font-family: "Arvo"; font-weight: 700; color: #444444; text-rendering: optimizelegibility; padding-top: 0.273em; line-height: 1.15538em; padding-bottom: 0.273em; text-transform:uppercase; }
+#main-container h1 a, #main-container h2 a, #main-container h3 a, #main-container h4 a, #main-container h5 a, #main-container h6 a { color: #805c45; }
+
+@media only screen and (max-width: 767px) { #main-container h1, #main-container h2, #main-container h3, #main-container h4, #main-container h5, #main-container h6 { word-wrap: break-word; } }
+
+#main-container h1 { font-size: 30px; color:#56331a; }
+#main-container h1.xlarge { font-size: 40px;  }
+#main-container h1.xxlarge { font-size: 80px; font-size: }
+#main-container h1.absurd { font-size: 177px; font-size: 11.0625rem; }
+
+#main-container h2 { font-size: 26px; color:#825435; }
+
+#main-container h3 { font-size: 20px; color:#a68f69; }
+
+#main-container h4 { font-size: 18px; }
+
+#main-container h5 { font-size: 16px; }
+
+#main-container h6 { font-size: 14px; }
+
+@media only screen and (max-width: 767px) { }
+  
+#main-container .subhead { color: #777; font-weight: normal; margin-bottom: 20px; }
+
+/*=====================================================  	Links & Paragraph styles 	 	======================================================*/
+#main-container p { font-family: "Arvo"; font-weight: 400; font-size: 16px; font-size: 1rem; margin-bottom: 13px; line-height: 1.625em; }
+#main-container p.lead { font-size: 8px; font-family:Arial, Helvetica, sans-serif; margin-bottom: 18px; }
+
+
+#main-container .small_p { font-family: "Arvo"; font-weight: 400; font-size: 14px;  margin-bottom: 13px; line-height: 1.4em; }
+
+@media only screen and (max-width: 768px) { #main-container p { font-size: 17.6px; font-size: 1.1rem; line-height: 1.625em; } }
+
+#main-container a { color: #522d13; text-decoration: none; outline: 0; line-height: inherit;
+/* ANIMATE */ -webkit-transition: all .5s; -o-transition-property: all; -o-transition-duration: .5s; -moz-transition-property: all; -moz-transition-duration: .5s; transition-property: all; transition-duration: .5s;}
+#main-container a:hover { color: #805c45; }
+
+/*=====================================================
+ 	Lists 	 ======================================================*/
+#main-container ul, #main-container ol { margin-bottom: 0.273em; }
+
+#main-container ul { list-style: none outside; }
+
+#main-container ol { list-style: decimal; margin-left: 30px; }
+
+#main-container ul.square, #main-container ul.circle, #main-container ul.disc { margin-left: 25px; }
+#main-container ul.square { list-style: square outside; }
+#main-container ul.circle { list-style: circle outside; }
+#main-container ul.disc { list-style: disc outside; }
+#main-container ul ul { margin: 4px 0 5px 25px; }
+
+#main-container ol ol { margin: 4px 0 5px 30px; }
+
+#main-container li { padding-bottom: 0.273em; }
+
+#main-container ul.large li { line-height: 21px; }
+
+#main-container dl dt { font-weight: bold; font-size: 16px; font-size: 1rem; }
+
+@media only screen and (max-width: 768px) { #main-container ul, #main-container ol, #main-container dl, #main-container p { text-align: left; } }
+/* Mobile */
+#main-container em { font-style: italic; line-height: inherit; }
+
+#main-container strong { font-weight: 700; line-height: inherit; }
+
+#main-container small { font-size: 56.4%; line-height: inherit; }
+
+#main-container h1 small, #main-container h2 small, #main-container h3 small, #main-container h4 small, #main-container h5 small { color: #777; }
+
+/*	Blockquotes  */
+#main-container blockquote { line-height: 20px; color: #777; margin: 0 0 18px; padding: 9px 20px 0 19px; border-left: 5px solid #cccccc; }
+#main-container blockquote p { line-height: 20px; color: #777; }
+#main-container blockquote cite { display: block; font-size: 12px; font-size: 1.2rem; color: #555555; }
+#main-container blockquote cite:before { content: "\2014 \0020"; }
+#main-container blockquote cite a { color: #555555; }
+#main-container blockquote cite a:visited { color: #555555; }
+
+#main-container hr { border: dashed 1px #825435; clear: both; margin: 16px 0 18px; height: 0; }
+
+#main-container abbr, #main-container acronym { text-transform: uppercase; font-size: 90%; color: #222; border-bottom: 1px solid #cccccc; cursor: help; }
+
+#main-container abbr { text-transform: none; }
+
+
+#main-container #header h6 {font-size: 18px; font-weight:400; color:#825435; text-transform:none;}
+#main-container #header h5 {font-size: 28px; color:#825435; text-transform:none;}
+
+
+/*	Footer  */
+#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer p { color:#FFFFFF;}
+
+#footer h1 { font-size: 68px; font-size: 4.25rem; color:#f4ecdc; }
+
+#footer h2 { font-size: 42px; font-size: 2.625rem; color:#f4ecdc; }
+
+#footer h3 { font-size: 52px; color:#f4ecdc; text-shadow: 1px 1px 1px #000; } #footer h3 strong { color:#f4ecdc;}
+
+#footer h4 { font-size: 22px; color:#f4ecdc; } #footer h3 strong { color:#FFF;}
+
+#footer h5 { font-size: 18px; font-size: 1.125rem; }
+
+#footer h6 { font-size: 16px; font-size: 1rem; }
+#footer p, #footer { font-size: 12px;   line-height: 1.4em; color:#f4ecdc;}
+#footer address { font-size: 18px; font-size: 1.125rem;  line-height: 1.4em; color:#f4ecdc; }
+#footer hr { border: dashed 1px #FFFFFF; clear: both; margin: 16px 0 18px; height: 0; }
