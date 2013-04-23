@@ -1,22 +1,14 @@
 @charset "UTF-8";
+/* NAV - Mobile */
+@-ms-viewport {width: device-width;}
 
-/* =============================================================================
-   NAV - Mobile
-   ========================================================================== */
-@-ms-viewport {
-  width: device-width;
-}
-
-@viewport {
-  width: device-width;
-}
+@viewport {width: device-width;}
 
 .block {
   position: relative;
   margin: 0 auto;
   padding: 0em 1.25em;
-  max-width: 60em;
-}
+  max-width: 60em;}
 
 .close-btn {
   display: block;
@@ -25,22 +17,16 @@
   padding: 0;
   border: 0;
   outline: none;
-  background: #5F371B url("../img/close-btn.svg") left center no-repeat;
+  background: url("../img/close-btn.svg") left center no-repeat;
   background-size: 1.875em 1.875em;
   overflow: hidden;
   white-space: nowrap;
   text-indent: 100%;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
 .no-svg .close-btn {
-  background-image: url("../img/close-btn.png");
-}
-.close-btn:focus, .close-btn:hover {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-}
+  background-image: url("../img/close-btn.png");}
 
 .nav-icon {
   display: block;
@@ -52,50 +38,29 @@
   background: url("../img/nav-icon.svg") left center no-repeat;
   background-size: 0.94em 0.75em;
   float:left;
-}
-
-.nav-btn, .nav-btn a {
-  padding-top:3px;
-  display: block;
-  text-indent: 5px;
-  color:#FFF !important;
-  font-family:inherit;
-  font-weight:700;
-  font-size:18px;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
-  opacity: 1;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
+  margin-left: 60px;}
 .no-svg .nav-icon {
-  background-image: url("../img/nav-icon.png");
-}
-.nav-btn:hover, .nav-btn:focus {  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-  opacity: 0.7;
-
-}
+  background-image: url("../img/nav-icon.png");}
 
 #outer-wrap {
   position: relative;
   overflow: hidden;
-  width: 100%;
-}
+  width: 100%; }
 
 #inner-wrap {
   position: relative;
-  width: 100%;
-}
+  width: 100%; }
 
 #nav {
   z-index: 200;
   position: relative;
   overflow: hidden;
   width: 100%;
-  color: #fff;
-}
+  color: #fff; }
+  
 #nav .close-btn {
-  display: none;
-}
+  display: none; }
+  
 #nav .block-title {
   border: 0;
   clip: rect(0 0 0 0);
@@ -105,22 +70,21 @@
   padding: 0;
   position: absolute;
   top:0;
-  width: 1px;
-}
+  width: 1px;}
+  
 #nav .block {
   z-index: 2;
   position: relative;
-  padding: 0.75em 1.25em;
-  background: #5F371B;  
-}
+  padding: 0.75em 1.25em; }
+  
 #nav ul {
   *zoom: 1;
-  display: block;
-}
+  display: block; }
+  
 #nav ul:before, #nav ul:after {
   content: "";
-  display: table;
-}
+  display: table; }
+  
 #nav ul:after {
   clear: both;
 }
@@ -134,6 +98,7 @@
   line-height: 1.28571em;
   font-weight: bold;
   outline: none;
+  text-decoration:none!important;
 }
 #nav li a:focus, #nav li a:hover {
   color: #fff;
@@ -147,6 +112,12 @@
   position: absolute;
   top: 0.5em;
   left: 1.0em;
+}
+
+.call-btn {
+  position: absolute;
+  top: 0.5em;
+  right: 1.0em;
 }
 
 #res-nav {
@@ -227,11 +198,7 @@
   }
   #nav li {
     position: relative;
-    border-top: 1px solid #532c11;
 	padding-bottom: 0px !important;
-  }
-  #nav li:last-child {
-    border-bottom: 1px solid #532c11;
   }
   #nav ul li.nav-selected:after {
     z-index: 50;
@@ -243,7 +210,7 @@
     margin-top: -0.625em;
     border-top: 0.625em transparent solid;
     border-bottom: 0.625em transparent solid;
-    border-right: 0.625em #bdd9dd solid;
+    border-right: 0.625em #FFF solid;
   }
   
   #nav li a {
@@ -253,13 +220,14 @@
     padding: 0.85714em 0em;
 	margin:0px; }
 	
-  #main-container #nav ul ul { margin: 0px; background-color:rgba(255, 255, 255, 0.1); padding:0px; 
-    -moz-box-shadow:    inset 0  8px 8px -8px #241003, 
-                        inset 0 -8px 8px -8px #241003;
-    -webkit-box-shadow: inset 0  8px 8px -8px #241003, 
-                        inset 0 -8px 8px -8px #241003;
-     box-shadow:        inset 0  8px 8px -8px #241003, 
-                        inset 0 -8px 8px -8px #241003;}
+  #main-container #nav ul ul /* Shadow for ul li li elements */
+  { margin: 0px; background-color:rgba(255, 255, 255, 0.1); padding:0px; 
+    -moz-box-shadow:    inset 0  8px 8px -8px #000000, 
+                        inset 0 -8px 8px -8px #000000;
+    -webkit-box-shadow: inset 0  8px 8px -8px #000000, 
+                        inset 0 -8px 8px -8px #000000;
+     box-shadow:        inset 0  8px 8px -8px #000000, 
+                        inset 0 -8px 8px -8px #000000;}
 
   
   #nav li ul li a {
@@ -269,7 +237,6 @@
   .js-ready #nav {
     height: 100%;
     width: 70%;
-    background: #5F371B;
     -webkit-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
     -moz-box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
     box-shadow: inset -1.5em 0 1.5em -0.75em rgba(0, 0, 0, 0.25);
@@ -372,9 +339,6 @@
 /* =============================================================================
    NAV - Desktop
    ========================================================================== */
-	
-@media screen and (max-width: 45em) {#horizontal-nav { display: none;}}
-
 /* IPAD */
 
 #controls li {
@@ -441,17 +405,18 @@ display: block;
 margin: 0px;
 padding: 0;
 position: relative;
+text-transform:uppercase;
+text-shadow: 0 1px 1px rgba(0,0,0,0.75);
 }
 
 #horizontal-nav ul {
 padding: 0;
 list-style: none;
-margin: 8px 0px 0px 0px;
 }
 
 #horizontal-nav ul li {
 margin: 0px;
-padding: 5px 7px;
+padding: 25px 15px 10px 15px;
 float: left;
 margin-right: 10px;
 position: relative;
@@ -459,14 +424,20 @@ position: relative;
 -moz-transition: background-color 1s ease; /* For mozilla firefox */
 -o-transition: background-color 1s ease; /* For opera */
 transition: background-color 1s ease;
--webkit-border-radius: 8px;
--moz-border-radius: 8px;
--khtml-border-radius: 8px;
-border-radius: 8px; 
+background-image:none;
 }
 
 #horizontal-nav ul li:hover {
-background-color:#2e4a17;
+background-image:url("../img/star.svg");
+background-size:15px 15px;
+background-position:top center;
+background-repeat:no-repeat;
+}
+
+.no-svg #horizontal-nav ul li:hover {
+background-image:url("../img/star.png");
+background-position:top center;
+background-repeat:no-repeat;
 }
 
 #horizontal-nav ul li a {
@@ -476,8 +447,8 @@ text-decoration: none;
 line-height: 15px;
 color: #FFFFFF;
 font-family:inherit;
-font-weight:700;
-font-size:14px;
+font-size:16px;
+text-decoration:none!important;
 }
 
 #horizontal-nav ul li a:hover {
@@ -485,7 +456,6 @@ color: #FFF;
 }
 
 #horizontal-nav ul li a.nav-selected {
-
 }
 
 #horizontal-nav ul li a.nav-path-selected {
@@ -502,10 +472,6 @@ top: -999999%;
 padding: 0; 
 margin: 0;
 z-index: 25;
-background-image:url(../img/nav-arrow.png);
-background-repeat:none;
-background-position:top;
-padding-top:15px;
 }
 
 #horizontal-nav ul li:hover > ul {
@@ -521,7 +487,7 @@ transition: opacity 1s ease;
 #horizontal-nav ul li ul li {
 margin:0;
 padding: 0;
-background-color: #5F371B;/*customize_sub_navigation_background*/
+background: #2c2a2d;/*customize_sub_navigation_background*/
 color: #FFFFFF;/*customize_sub_navigation_link*/
 -webkit-border-radius: 0px;
 -moz-border-radius: 0px;
@@ -542,11 +508,11 @@ width: 180px;
 display: block;
 text-align: left;
 line-height: normal;
-border-bottom: 1px solid #532c11;
+border-bottom: 1px solid #000000;
 }
 
 #horizontal-nav ul li ul li:hover {
-  background: #6f4b31;
+  background: #000000;
 color: #FFFFFF;
 -webkit-transition: all 1s ease; /* For chrome & safari */
 -moz-transition: all 1s ease; /* For mozilla firefox */
@@ -574,7 +540,7 @@ top: -1px;
 }
 
 #horizontal-nav ul li a.nav-dropdown {
-background-image: url(../img/sub-nav-down-icon.png);
+background-image: url("../img/sub-nav-down-icon.png");
 background-repeat: no-repeat;
 background-position: right center;
 padding: 10px 15px 10px 0;
@@ -588,23 +554,9 @@ width: 150px;
 
 #horizontal-nav ul li ul li.nav-dropdown {
 padding: 10px;
-background-image: url(../img/sub-nav-right-icon.png);
+background-image: url("../img/sub-nav-right-icon.png");
 background-repeat: no-repeat;
 background-position: right center;
 }
 
-
-/* Note: Design for a width of 768px */
-	
-	@media only screen and (min-width: 768px) and (max-width: 959px) {
-		
-		#horizontal-nav ul li {
-padding: 8px 4px;
-margin-right: 6px;
-}
-
-#horizontal-nav ul li a {
-font-size:12px;
-}
-		
-	}
+@media screen and (max-width: 45em) {#horizontal-nav {display:none;}}
